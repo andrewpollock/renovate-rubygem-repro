@@ -1,17 +1,15 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 30953
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate does not reflect the addition in `Gemfile.lock`
+e.g. https://github.com/google/osv.dev/pull/2501
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Renovate reflects the addtion in `Gemfile.lock`
+e.g. https://github.com/google/osv.dev/pull/2501
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/30953
